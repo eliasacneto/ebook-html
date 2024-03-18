@@ -1,0 +1,72 @@
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#vectorImage{
+    background-image: url('/assets/images/vector.svg');
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+}
+#darkModeBtn{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 88%;
+    left: 3%;
+    cursor: pointer;
+}
+
+#bookImage{
+    background-image: url('/assets/images/book.svg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 130%;
+    margin: 5.6rem 0 0 9rem;
+
+}
+
+#formEbook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 16.4rem;
+}
+
+#formEbook *{
+    margin-bottom: 1.5rem;
+}
+
+input::placeholder{
+    color: #FFF;
+    
+    
+}
+.btnPrimary{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold !important;
+}
+
+.btnPrimary:hover{
+    background-color: rgba(34, 73, 87, 0.6);
+}
